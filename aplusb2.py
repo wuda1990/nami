@@ -2,10 +2,10 @@ import sys
 
 while True:
     try:
-        s = input('please input the the number:')
+        s = input()
         n = int(s)
         while n > 0:
-            row = input("please input a and b:").split()
+            row = input().split()
             print(int(row[0]) + int(row[1]))
             n = n - 1
     except:
