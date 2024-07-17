@@ -9,4 +9,5 @@ while True:
             print(int(row[0]) + int(row[1]))
             n = n - 1
     except:
+        print("An error occurred!")
         break
